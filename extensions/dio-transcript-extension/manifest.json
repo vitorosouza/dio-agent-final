@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "DIO Agent - Capturador de Transcrição de Aulas",
+  "version": "1.0.0",
+  "description": "Extrai automaticamente o link e a transcrição completa de vídeos do YouTube embutidos em aulas da DIO para o DIO Agent.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.dio.me/*",
+    "*://*.youtube.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Capturar Transcrição para o DIO Agent"
+  }
+}
